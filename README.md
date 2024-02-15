@@ -67,5 +67,5 @@ environment variables or as specified in the app's documentation.
   <tr>
     <td><img src="https://github.com/Qadomy/Weather/blob/master/assets/images/screen2.jpg" width=270 height=480></td>
     <td><img src="https://github.com/Qadomy/Weather/blob/master/assets/images/screen1.jpg" width=270 height=480></td>
-    <td><img src="" width=270 height=480></td>
+    <td><img src="https://github.com/Qadomy/Weather/blob/master/assets/images/screen3.jpg" width=270 height=480></td>
   </tr>
