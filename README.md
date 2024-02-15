@@ -23,6 +23,7 @@ WeatherApp is a sleek and intuitive mobile application developed using Flutter, 
 - Dio package
 - Solid principles
 - Dependency injection
+- Unit Test - Mockito
 
 To get started with WeatherApp, ensure you have Flutter installed on your development machine. Clone the repository to your local machine, and you're ready to run the app with the following steps:
 
@@ -57,6 +58,13 @@ API Integration
 WeatherApp fetches weather data from WeatherAPI.com. 
 Ensure you have an API key from WeatherAPI.com and include it in your project's 
 environment variables or as specified in the app's documentation.
+
+
+Unit Testing:
+This test checks if our app correctly gets weather information for a specific city 
+and handles errors when things go wrong. 
+We use Mockito to pretend we're talking to a real weather service, 
+allowing us to simulate different scenarios without needing an actual internet connection.
 
 
  <tr>
