@@ -32,16 +32,15 @@ To get started with WeatherApp, ensure you have Flutter installed on your develo
 
    ```bash
    flutter pub get
+   
+   Choose the desired flavor to run:
+   
+   Development:
+   flutter run --flavor development -t lib/main_development.dart
+   
+   Production
+   flutter run --flavor production -t lib/main_production.dart
 
-Running the App
-
-Choose the desired flavor to run:
-
-Development:
-flutter run --flavor development -t lib/main_development.dart
-
-Production
-flutter run --flavor production -t lib/main_production.dart
 
 
 Architecture
@@ -58,3 +57,15 @@ API Integration
 WeatherApp fetches weather data from WeatherAPI.com. 
 Ensure you have an API key from WeatherAPI.com and include it in your project's 
 environment variables or as specified in the app's documentation.
+
+
+ <tr>
+    <td>Search View</td>
+    <td>Details View</td>
+    <td>Error View</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Qadomy/Weather/blob/master/assets/images/screen2.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/Qadomy/Weather/blob/master/assets/images/screen1.jpg" width=270 height=480></td>
+    <td><img src="" width=270 height=480></td>
+  </tr>
