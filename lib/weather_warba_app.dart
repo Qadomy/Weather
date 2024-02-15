@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'core/routing/app_router.dart';
 import 'core/routing/routes.dart';
+import 'core/theming/app_theme.dart';
 
 class WeatherWarbaApp extends StatelessWidget {
   final AppRouter appRouter;
@@ -16,9 +17,9 @@ class WeatherWarbaApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (BuildContext context, Widget? child) {
-        return const MaterialApp(
+        return MaterialApp(
           title: 'Weather',
-          // theme: appTheme(), //todo
+          theme: appTheme(),
           debugShowCheckedModeBanner: false,
           initialRoute: Routes.homeScreen,
           onGenerateRoute: AppRouter.generateRoute,

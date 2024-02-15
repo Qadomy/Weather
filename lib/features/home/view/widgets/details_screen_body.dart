@@ -94,7 +94,7 @@ class _DetailsScreenBodyState extends State<DetailsScreenBody> {
   }
 
   void saveDataLocal() async {
-    await SharedPreferencesService.saveData(
+    await SharedPreferencesService.instance.saveData(
       city: widget.weatherModel.location!.name!,
       temp: widget.weatherModel.current!.tempC!,
       conditionName: widget.weatherModel.current!.condition!.text!,
